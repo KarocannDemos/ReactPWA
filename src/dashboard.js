@@ -18,8 +18,6 @@ export default function Dashboard() {
 
       <h3>Outlet is here:</h3>
       <MyAppNav />
-
-
       <Outlet />
     </div>
   );
