@@ -14,16 +14,15 @@ import Dashboard from './dashboard';
 function App() {
   return (
     <>
-    <Routes>
-      <Route to="/dashboard/*" element={<Dashboard />}>
-        <Route index element={<Home/>} />
-        <Route path="about" element={<About/>}/>kt
-        <Route path="users" element={<Users/>} />
-      </Route>
-    </Routes>
+      <Routes>
+        <Route to="/dashboard/*" element={<Dashboard />}>
+          <Route index element={<Home/>} />
+          <Route path="about" element={<About/>}/>kt
+          <Route path="users" element={<Users/>} />
+        </Route>
+      </Routes>
     </>
   );
-
 }
 
 export default App;
