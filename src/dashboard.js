@@ -16,7 +16,7 @@ export default function Dashboard() {
     <div>
       <h1>Dashboard</h1>
 
-      <h3>Outlet is here:</h3>
+      <h3>Outlet is here test:</h3>
       <MyAppNav />
       <Outlet />
     </div>
